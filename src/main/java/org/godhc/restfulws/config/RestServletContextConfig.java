@@ -27,8 +27,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 @EnableWebMvc
 @ComponentScan(
 		basePackageClasses = {
-				org.davidservin.restfulws.utm.rest.ComponentPackageMaker.class,
-				org.davidservin.restfulws.utm.rest.exception.ComponentPackageMaker.class },
+				org.godhc.restfulws.rest.ComponentPackageMaker.class,
+				org.godhc.restfulws.rest.exception.ComponentPackageMaker.class },
 		useDefaultFilters = false,
 		includeFilters = @ComponentScan.Filter({
 			Controller.class,
